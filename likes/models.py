@@ -9,5 +9,3 @@ class LikedItem(models.Model):
     object_id = models.PositiveIntegerField()
     content_object = GenericForeignKey()
     liked_at = models.DateTimeField(auto_now_add=True)
-
-# Create your models here.
